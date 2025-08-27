@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Models</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script type="module" src="./script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="container">
+          <div class="header-wrapper">
+            <div class="navbar-wrapper">
+              <div class="header-logo">
+                <a href="#" class="logo-link link">Amazon</a>
+              </div>
+              <button class="menu-toggler" aria-label="Toggle Menu">
+                <i class="fa-solid fa-bars"></i>
+              </button>
+            </div>
+
+            <div class="navbar-list-container">
+              <ul class="navbar-list">
+                <li>
+                  <a href="#" class="navbar-link link">Home</a>
+                </li>
+                <li>
+                  <a href="#" class="navbar-link link about">About</a>
+                  <p class="about-data">
+                    Amazon.com is an e-commerce platform that sells many product
+                    categories including media, groceries, health and personal
+                    care, and more.
+                  </p>
+                </li>
+                <li>
+                  <a href="#" class="navbar-link link">Sign-In</a>
+                </li>
+              </ul>
+
+              <div class="search-box">
+                <input
+                  type="text"
+                  placeholder="Search Product"
+                  class="search-bar"
+                  aria-label="Search Products"
+                />
+                <button class="search-btn">Search</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Color Picker Section -->
+      <section>
+        <div class="container">
+          <div class="tab-modal-wrapper">
+            <div class="color-picker">
+              <div class="color" data-color="red">RED</div>
+              <div class="color" data-color="green">GREEN</div>
+              <div class="color" data-color="blue">BLUE</div>
+            </div>
+          </div>
+          <div class="toast">
+            <p class="msg">Color</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Accordion Section -->
+      <section>
+        <div class="container">
+          <div class="accordian-wrapper">
+            <div class="accordian">
+              <div class="query-box">
+                <p class="query txt">What is HTML?</p>
+                <button class="toggle-btn" aria-label="Toggle Answer">^</button>
+              </div>
+              <div class="answer-box wrap">
+                <p class="answer txt">
+                  HTML stands for HyperText Markup Language.
+                </p>
+              </div>
+            </div>
+
+            <div class="accordian">
+              <div class="query-box">
+                <p class="query txt">What is CSS?</p>
+                <button class="toggle-btn" aria-label="Toggle Answer">^</button>
+              </div>
+              <div class="answer-box wrap">
+                <p class="answer txt">
+                  CSS stands for Cascading Style Sheets and is used for styling
+                  HTML elements.
+                </p>
+              </div>
+            </div>
+
+            <div class="accordian">
+              <div class="query-box">
+                <p class="query txt">What is JavaScript?</p>
+                <button class="toggle-btn" aria-label="Toggle Answer">^</button>
+              </div>
+              <div class="answer-box wrap">
+                <p class="answer txt">
+                  JavaScript is a scripting language used to create dynamic and
+                  interactive web content.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Mode Changer -->
+      <div class="mode-changer-wrapper">
+        <p class="mode-changer">Mode</p>
+        <ul class="mode-list">
+          <li class="mode" data-mode="dark">Dark</li>
+          <li class="mode" data-mode="light">Light</li>
+        </ul>
+      </div>
+    </main>
+
+    <footer>
+      <!-- Add footer content here if needed -->
+    </footer>
+  </body>
+</html>
