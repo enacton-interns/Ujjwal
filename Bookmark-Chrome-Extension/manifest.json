@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Bookmark Manager",
+  "description": "Save your important pages with one click!",
+  "version": "1.0",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon16.png"
+  },
+  "permissions": ["storage", "tabs"],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
